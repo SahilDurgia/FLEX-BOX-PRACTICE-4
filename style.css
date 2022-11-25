@@ -1,0 +1,49 @@
+body{
+	margin:0;
+}
+.parent{
+	display:flex;
+	flex-direction:column;
+}
+.top{
+	display:flex;
+	flex-direction:row;
+	/* width:100%; */
+	 height: 80px;
+	 
+}
+.bottom{
+	display:flex;
+	height:695px;
+	margin-top: 8px;
+	
+	
+}
+.sec1,.sec2, .b1,  .sec3, .sec4{
+	background-color:green;
+}
+.sec1{
+	flex-grow:13;
+   	margin-right: 5px;	
+}
+.sec2{
+	flex-grow:1;
+}
+.b1{
+	flex-grow:2;
+	margin-right: 8px;
+	
+}
+.b2{
+	display:flex;
+	flex-direction:column;
+	flex-grow:8;
+}
+.sec3{
+	flex-grow:8;
+	
+}
+.sec4{
+	flex-grow:2;
+    margin-top: 8px;
+}
